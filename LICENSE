@@ -19,3 +19,269 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+This is taken from 
+
+https://ee.lbl.gov/vic/ 
+
+ftp://ftp.ee.lbl.gov/conferencing/vic/vicsrc-2.8.tar.gz
+
+all of it is open source with various assortments of BSD style open source Licenses. 
+
+
+Copyright holders are: 
+
+   Friedrich-Alexander Universitaet Erlangen-Nuernberg (FAU)
+   Regents of the University of Victoria, Wellington, NZ.
+   Jim Lowe
+   Thomas G. Lane.
+   Andy C. Hung
+   Apple Computer, Inc.
+   HEWLETT-PACKARD COMPANY
+   Free Software Foundation, Inc.
+   Sun Microsystems, Inc.
+   Regents of the University of California.
+   Digital Equipment Corporation, Maynard, MA              *
+   RSA Data Security, Inc.
+   Xerox Corporation
+   CompuServe Incorporated.
+   Amir, E., McCanne, S., and Zhang, H.,
+
+   
+Summary of Copyright notices:
+
+ * Copyright (c) Regents of the University of California.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *      This product includes software developed by the University of
+ *      California, Berkeley and the Network Research Group at
+ *      Lawrence Berkeley Laboratory.
+ * 4. Neither the name of the University nor of the Laboratory may be used
+ *    to endorse or promote products derived from this software without
+ *    specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+
+
+
+ * Sun Microsystems with the following copyright:
+ *
+ * Copyright (c) Sun Microsystems, Inc.  1992, 1993. All rights reserved.
+ *
+ * License is granted to copy, to use, and to make and to use derivative
+ * works for research and evaluation purposes, provided that Sun Microsystems is
+ * acknowledged in all documentation pertaining to any such copy or derivative
+ * work. Sun Microsystems grants no other licenses expressed or implied. The
+ * Sun Microsystems  trade name should not be used in any advertising without
+ * its written permission.
+ *
+ * SUN MICROSYSTEMS MERCHANTABILITY OF THIS SOFTWARE OR THE SUITABILITY OF
+ * THIS SOFTWARE FOR ANY PARTICULAR PURPOSE.  The software is provided "as is"
+ * without express or implied warranty of any kind.
+ *
+ * These notices must be retained in any copies of any part of this software.
+
+/*
+ * This code is derived from the P64 software implementation by the
+ * Stanford PVRG group:
+ *
+ * Copyright (C) 1990, 1991, 1993 Andy C. Hung, all rights reserved.
+ * PUBLIC DOMAIN LICENSE: Stanford University Portable Video Research
+ * Group. If you use this software, you agree to the following: This
+ * program package is purely experimental, and is licensed "as is".
+ * Permission is granted to use, modify, and distribute this program
+ * without charge for any purpose, provided this license/ disclaimer
+ * notice appears in the copies.  No warranty or maintenance is given,
+ * either expressed or implied.  In no event shall the author(s) be
+ * liable to you or a third party for any special, incidental,
+ * consequential, or other damages, arising out of the use or inability
+ * to use the program for any purpose (or the loss of data), even if we
+ * have been advised of such possibilities.  Any public reference or
+ * advertisement of this source code should refer to it as the Portable
+ * Video Research Group (PVRG) code, and not by any author(s) (or
+ * Stanford University) name.
+ */
+
+/*
+ * Copyright (c) Jim Lowe, 1995, All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *      This product includes software developed by Jim Lowe
+ * 4. The name of the author may not be used to endorse or promote products
+ *    derived from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+
+from IJG JPEG Library: 
+
+This software is the work of Tom Lane, Philip Gladstone, Luis Ortiz,
+Lee Crocker, Ge' Weijers, and other members of the Independent JPEG Group.
+
+The authors make NO WARRANTY or representation, either express or implied,
+with respect to this software, its quality, accuracy, merchantability, or
+fitness for a particular purpose.  This software is provided "AS IS", and you,
+its user, assume the entire risk as to its quality and accuracy.
+
+This software is copyright (C) 1991, 1992, Thomas G. Lane.
+All Rights Reserved except as specified below.
+
+Permission is hereby granted to use, copy, modify, and distribute this
+software (or portions thereof) for any purpose, without fee, subject to these
+conditions:
+(1) If any part of the source code for this software is distributed, then this
+README file must be included, with this copyright and no-warranty notice
+unaltered; and any additions, deletions, or changes to the original files
+must be clearly indicated in accompanying documentation.
+(2) If only executable code is distributed, then the accompanying
+documentation must state that "this software is based in part on the work of
+the Independent JPEG Group".
+(3) Permission for use of this software is granted only if the user accepts
+full responsibility for any undesirable consequences; the authors accept
+NO LIABILITY for damages of any kind.
+
+Permission is NOT granted for the use of any IJG author's name or company name
+in advertising or publicity relating to this software or products derived from
+it.  This software may be referred to only as "the Independent JPEG Group's
+software".
+
+We specifically permit and encourage the use of this software as the basis of
+commercial products, provided that all warranty or liability claims are
+assumed by the product vendor.
+
+
+ansi2knr.c is included in this distribution by permission of L. Peter Deutsch,
+sole proprietor of its copyright holder, Aladdin Enterprises of Menlo Park, CA.
+ansi2knr.c is NOT covered by the above copyright and conditions, but instead
+by the usual distribution terms of the Free Software Foundation; principally,
+that you must include source code if you redistribute it.  (See the file
+ansi2knr.c for full details.)  However, since ansi2knr.c is not needed as part
+of any program generated from the JPEG code, this does not limit you more than
+the foregoing paragraphs do.
+
+
+It appears that the arithmetic coding option of the JPEG spec is covered by
+patents owned by IBM and AT&T, as well as a pending Japanese patent of
+Mitsubishi.  Hence arithmetic coding cannot legally be used without obtaining
+one or more licenses.  For this reason, support for arithmetic coding has been
+removed from the free JPEG software.  (Since arithmetic coding provides only a
+marginal gain over the unpatented Huffman mode, it is unlikely that very many
+implementors will support it.  If you do obtain the necessary licenses,
+contact jpeg-info@uunet.uu.net for a copy of our arithmetic coding modules.)
+So far as we are aware, there are no patent restrictions on the remaining
+code.
+
+
+We are required to state that
+    "The Graphics Interchange Format(c) is the Copyright property of
+    CompuServe Incorporated.  GIF(sm) is a Service Mark property of
+    CompuServe Incorporated."
+
+
+/*
+ * Copyright 1995 Apple Computer, Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * APPLE COMPUTER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * Except as contained in this notice, the name of Apple Computer shall not be
+ * used in advertising or otherwise to promote the sale, use or other dealings
+ * in this Software without prior written authorization from Apple Computer.
+ */
+
+
+/*
+ * (c) Copyright 1994 HEWLETT-PACKARD COMPANY
+ *
+ * To anyone who acknowledges that this file is provided
+ * "AS IS" without any express or implied warranty:
+ * permission to use, copy, modify, and distribute this
+ * file for any purpose is hereby granted without fee,
+ * provided that the above copyright notice and this
+ * notice appears in all copies, and that the name of
+ * Hewlett-Packard Company not be used in advertising or
+ * publicity pertaining to distribution of the software
+ * without specific, written prior permission.  Hewlett-
+ * Packard Company makes no representations about the
+ * suitability of this software for any purpose.
+ *
+ */
+
+
+/* This is the client interface to the J-Video driver. */
+/************************************************************************
+ *                                                                      *
+ *                      Copyright (c) 1993 by                           *
+ *              Digital Equipment Corporation, Maynard, MA              *
+ *                      All rights reserved.                            *
+ *                                                                      *
+ *   This software is furnished under a license and may be used and     *
+ *   copied  only  in accordance with the terms of such license and     *
+ *   with the  inclusion  of  the  above  copyright  notice.   This     *
+ *   software  or  any  other copies thereof may not be provided or     *
+ *   otherwise made available to any other person.  No title to and     *
+ *   ownership of the software is hereby transferred.                   *
+ *                                                                      *
+ *   The information in this software is subject to change  without     *
+ *   notice  and should not be construed as a commitment by Digital     *
+ *   Equipment Corporation.                                             *
+ *                                                                      *
+ *   Digital assumes no responsibility for the use  or  reliability     *
+ *   of its software on equipment which is not supplied by Digital.     *
+ *                                                                      *
+ ************************************************************************/
+

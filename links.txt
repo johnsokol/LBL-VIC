@@ -1,0 +1,6 @@
+
+https://ee.lbl.gov/vic/ 
+
+ftp://ftp.ee.lbl.gov/conferencing/vic/vicsrc-2.8.tar.gz
+
+
